@@ -5,8 +5,8 @@ import {
   middlewareLogResponses,
   middlewareMetricsInc,
 } from "./api/middleware.js";
-import { handlerMetrics } from "./admin/metrics.js";
-import { handlerReset } from "./admin/reset.js";
+import { handlerMetrics } from "./api/metrics.js";
+import { handlerReset } from "./api/reset.js";
 const app = express();
 const PORT = 8080;
 
