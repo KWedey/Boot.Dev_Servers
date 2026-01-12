@@ -1,0 +1,31 @@
+{
+  "name": "boot.dev_servers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KWedey/Boot.Dev_Servers.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/KWedey/Boot.Dev_Servers/issues"
+  },
+  "homepage": "https://github.com/KWedey/Boot.Dev_Servers#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
